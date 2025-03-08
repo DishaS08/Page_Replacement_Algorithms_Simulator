@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Replacement Algorithms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Page Replacement Algorithms Simulator</h1>
+        <form id="inputForm">
+            <label for="pagesInput">Enter Page Numbers (space-separated):</label>
+            <input type="text" id="pagesInput" name="pagesInput" required>
+            <label for="framesInput">Enter Number of Frames:</label>
+            <input type="number" id="framesInput" name="framesInput" required>
+            <button type="submit">Simulate</button>
+        </form>
+
+        <div id="outputContainer">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <!-- 
+    <script src="fifo.js"></script>
+    <script src="lru.js"></script>
+    <script src="optimal.js"></script> -->
+
+    <script src="sc.js"></script>
+
+</body>
+
+</html>
